@@ -2,425 +2,811 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-    <title>BootStrap first project</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>WebBrings Technologies</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-        <div class="container">
-          <a href="#" class="navbar-brand">FreeLearners</a>
-  
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navmenu"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a href="#learn" class="nav-link">What You'll Learn</a>
+  <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top"
+    style="backdrop-filter: blur(10px); width: 100vw ; background-color: black;">
+    <div class="container">
+      <div style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+          ">
+        <img src="./img/imgs/logo.png" style="height: 35px; width: 35px" />
+        <a href="#" class="navbar-brand" style="">WebBrings</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link font-weight-bold" style="font-weight: 500;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link font-weight-bold" style="font-weight: 500">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#technologies" class="nav-link font-weight-bold" style="font-weight: 500">Technologies</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link font-weight-bold" style="font-weight: 500">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#login" class="nav-link font-weight-bold" style="font-weight: 500">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- --------------------------------ShowCase-------------------------------------- -->
+
+  <!-- Showcase -->
+  <section id="#" class="bg-dark text-light p-5 p-lg-0 text-center text-sm-start homeSection container-fluid">
+    <div class="container h-100 d-flex w-100">
+      <div class="d-sm-flex align-items-center justify-content: center w-100">
+        <div style="" class="homeTextContainer">
+          <div style="padding-top: 80px">
+            <h2>
+              Small Team With <span class="text-danger"> Big Ideas </span>
+            </h2>
+          </div>
+          <div style="
+                padding-top: -30px;
+                width: 100%;
+                text-align: center;
+                display: flex;
+                /* align-items: center; */
+                /* justify-content: center; */
+                flex-direction: column;
+              ">
+            <h1 class="logoText">
+              <span style="">Webbrings</span> Technologies
+            </h1>
+            <div style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 30px;
+                  margin-top: 50px;
+                ">
+              <button class="btn btn-danger  btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">
+                Our Services
+              </button>
+              <button class="btn bttttn btn-lg" data-bs-toggle="modal" data-bs-target="#enroll" style="
+                    background: transparent;
+                    color: #fff;
+                    border: 1px solid #fff;
+                  ">
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="super-box py-3 py-xl-5 sections bg-light-1" style="background-color: #dfdfdfbf">
+    <div class="serv">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+            <div class="under-roof-title mb-5 text-left">
+              <h2 class="font-weight-bold text-black" style="text-align: center; padding-top: 30px">
+                Our Services: Everything Under One Roof
+              </h2>
+              <p style="text-align: center; padding-top: 30px">
+                Every software development project passes through various
+                stages like wireframing, designing, mobile and/or web
+                development, QA Testing, support and in the last marketing. We
+                take care of all your unspoken needs and that's why we keep
+                everything under one roof so you don't have to suffer.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <div class="main-div w-100">
+                  <a href="#" style="color: black; text-decoration: none">
+                    <div
+                      class="text-center p-xl-5 p-4 feature-box-13 position-relative lg-padding-ten-all md-padding-25px-all sm-padding-eight-all ourServicesBox">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.2121"
+                        height="49.3803" viewBox="0 0 36.2121 49.3803">
+                        <defs>
+                          <clipPath id="a" transform="translate(-15.2273 0.1452)">
+                            <rect width="66.6667" height="50" fill="none"></rect>
+                          </clipPath>
+                        </defs>
+                        <g clip-path="url(#a)">
+                          <g>
+                            <rect x="4.115" y="6.5841" width="27.9821" height="34.5662" fill="none"></rect>
+                            <path
+                              d="M45.6784,39.359H24.28v1.6461H45.6784V45.12a2.4688,2.4688,0,0,1-2.469,2.469H23.4573a2.4687,2.4687,0,0,1-2.469-2.469v-6.584H19.3422V45.12a4.12,4.12,0,0,0,4.1151,4.1151H43.2094a4.12,4.12,0,0,0,4.115-4.1151v-6.584h-1.646Z"
+                              transform="translate(-15.2273 0.1452)"></path>
+                            <path
+                              d="M20.9883,8.0848H42.3864V6.4389H20.9883V3.97a2.4687,2.4687,0,0,1,2.469-2.469H43.2094a2.4688,2.4688,0,0,1,2.469,2.469v9.876h1.646V3.97a4.12,4.12,0,0,0-4.115-4.1151H23.4573A4.12,4.12,0,0,0,19.3422,3.97v9.876h1.6461Z"
+                              transform="translate(-15.2273 0.1452)"></path>
+                            <rect x="17.2831" y="43.6192" width="1.646" height="1.646"></rect>
+                            <rect x="17.283" y="3.292" width="1.646" height="1.646" rx="0.823"></rect>
+                            <path
+                              d="M50.6164,15.4919H24.28a.8233.8233,0,0,0-.823.823v1.646H16.05a.8233.8233,0,0,0-.8229.823V38.4866a.8228.8228,0,0,0,1.399.5842l4.7-4.65h21.06a.8233.8233,0,0,0,.823-.823V31.952H45.34l4.7,4.65a.823.823,0,0,0,1.3992-.5842V16.3149A.8233.8233,0,0,0,50.6164,15.4919ZM41.5633,32.775H20.9883a.8215.8215,0,0,0-.5761.2387l-3.539,3.5V19.6069h6.5841V31.129a.8233.8233,0,0,0,.823.823h17.283Zm8.23,1.27-3.5388-3.5a.8218.8218,0,0,0-.5761-.2387H25.1033V17.1379h24.69Z"
+                              transform="translate(-15.2273 0.1452)"></path>
+                            <rect x="13.5865" y="21.601" width="1.3284" height="0.9065"></rect>
+                            <rect x="16.2433" y="21.601" width="14.6123" height="0.9065"></rect>
+                            <rect x="13.5865" y="23.4139" width="17.2691" height="0.9065"></rect>
+                            <rect x="13.5865" y="25.2268" width="17.2691" height="0.9065"></rect>
+                            <g>
+                              <rect x="3.292" y="21.601" width="1.0255" height="1"></rect>
+                              <rect x="3.292" y="23.601" width="2.5636" height="1"></rect>
+                              <rect x="3.292" y="25.601" width="2.5636" height="1"></rect>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                      <p class="text-medium text-black alt-font">
+                        Mobile App Development
+                      </p>
+                      <i class="fa fa-long-arrow-alt-right"></i>
+                    </div>
+                  </a><a href="#" style="color: black; text-decoration: none">
+                    <div
+                      class="text-center p-xl-5 p-4 feature-box-13 position-relative lg-padding-ten-all md-padding-25px-all sm-padding-eight-all ourServicesBox">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                        height="50" viewBox="0 0 50 50">
+                        <defs>
+                          <clipPath id="a" transform="translate(-8.3333)">
+                            <rect width="66.6667" height="50" fill="none"></rect>
+                          </clipPath>
+                        </defs>
+                        <g clip-path="url(#a)">
+                          <g>
+                            <path
+                              d="M47.5,5.8333v4.585l-22.8472,1.04-.3471,24.375H10.8333a1.6718,1.6718,0,0,1-1.6666-1.6666V5.8333Z"
+                              transform="translate(-8.3333)" fill="none"></path>
+                            <path d="M11.6667,2.5h1.6666V4.1667H11.6667Z" transform="translate(-8.3333)"></path>
+                            <path d="M15,2.5h1.6667V4.1667H15Z" transform="translate(-8.3333)"></path>
+                            <path d="M18.3333,2.5H20V4.1667H18.3333Z" transform="translate(-8.3333)"></path>
+                            <g>
+                              <path
+                                d="M34.4108,25.0892l1.1784-1.1784L33.6784,22l1.9108-1.9108-1.1784-1.1784-2.5,2.5a.8338.8338,0,0,0,0,1.1784Z"
+                                transform="translate(-8.3333)"></path>
+                              <path
+                                d="M45.5892,25.0892l2.5-2.5a.8338.8338,0,0,0,0-1.1784l-2.5-2.5-1.1784,1.1784L46.3216,22l-1.9108,1.9108Z"
+                                transform="translate(-8.3333)"></path>
+                              <path d="M37.559,25.8566l3.3341-8.3325,1.5483.6193-3.3341,8.3329Z"
+                                transform="translate(-8.3333)"></path>
+                            </g>
+                            <path
+                              d="M58.0892,16.9108l-6.6667-6.6667A.8334.8334,0,0,0,50.8333,10h-2.5V2.5a2.5,2.5,0,0,0-2.5-2.5h-35a2.5,2.5,0,0,0-2.5,2.5V34.1667a2.5,2.5,0,0,0,2.5,2.5h12.5v9.1666A4.1716,4.1716,0,0,0,27.5,50H54.1667a4.1715,4.1715,0,0,0,4.1666-4.1667V17.5A.8338.8338,0,0,0,58.0892,16.9108Zm-6.4225-4.0657,3.8216,3.8216H52.5a.8334.8334,0,0,1-.8333-.8334ZM10.8333,1.6667h35a.8334.8334,0,0,1,.8334.8333V5H10V2.5A.8333.8333,0,0,1,10.8333,1.6667Zm12.5,12.5V35h-12.5A.8333.8333,0,0,1,10,34.1667v-27.5H46.6667V10H27.5A4.1716,4.1716,0,0,0,23.3333,14.1667ZM54.1667,48.3333H27.5a2.5,2.5,0,0,1-2.5-2.5V14.1667a2.5,2.5,0,0,1,2.5-2.5H50v4.1666a2.5,2.5,0,0,0,2.5,2.5h4.1667v27.5A2.5,2.5,0,0,1,54.1667,48.3333Z"
+                              transform="translate(-8.3333)"></path>
+                            <g>
+                              <path d="M32.9167,32H36.25v1.6667H32.9167Z" transform="translate(-8.3333)"></path>
+                              <path d="M37.9167,32H46.25v1.6667H37.9167Z" transform="translate(-8.3333)"></path>
+                              <path d="M29.5833,35.3333h15V37h-15Z" transform="translate(-8.3333)"></path>
+                              <path d="M35.4167,38.6667H38.75v1.6666H35.4167Z" transform="translate(-8.3333)"></path>
+                              <path d="M40.4167,38.6667h10v1.6666h-10Z" transform="translate(-8.3333)"></path>
+                              <path d="M37.0833,42h10v1.6667h-10Z" transform="translate(-8.3333)"></path>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                      <p class="text-medium text-black alt-font">
+                        Web App Development
+                      </p>
+                      <i class="fa fa-long-arrow-alt-right"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <a href="#" style="color: black; text-decoration: none">
+                  <div
+                    class="text-center p-xl-5 p-4 feature-box-13 position-relative lg-padding-ten-all md-padding-25px-all sm-padding-eight-all ourServicesBox">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50.0352" height="50" viewBox="0 0 50.0352 50">
+                      <g>
+                        <path
+                          d="M20.0309,42.5l-6.575-10.2251a3.34,3.34,0,0,1-.2834-3.0333l7.0751-17.7A2.4542,2.4542,0,0,1,22.5409,10a.8334.8334,0,0,1,.8234.8334v15.05a.7815.7815,0,0,1-.3334.62,3.3336,3.3336,0,0,0-1.23,3.5042,3.2925,3.2925,0,0,0,2.4126,2.395,3.3333,3.3333,0,0,0,2.8058-5.9092.7451.7451,0,0,1-.3217-.5933V10.833A.8334.8334,0,0,1,27.521,10a2.4542,2.4542,0,0,1,2.2933,1.5417l7.0751,17.7a3.3408,3.3408,0,0,1-.2833,3.0333L30.031,42.5Z"
+                          fill="none"></path>
+                        <path
+                          d="M3.3641,27.5a2.4735,2.4735,0,0,0,1.25-.3467,2.48,2.48,0,0,1,0-4.3067,2.4724,2.4724,0,0,0-1.25-.3466,2.5,2.5,0,0,0,0,5Z"
+                          fill="#fff"></path>
+                        <path
+                          d="M21.6976,49.1667V45.8333h-.8333A.8333.8333,0,0,1,20.0309,45V43.3333a.8334.8334,0,0,1,.8334-.8334h1.6666l-6.575-10.2251a3.3408,3.3408,0,0,1-.2834-3.0333l7.0751-17.7a2.4616,2.4616,0,0,1,.5833-.86.8193.8193,0,0,0-.79-.6817,2.4533,2.4533,0,0,0-2.2933,1.5417l-7.0751,17.7a3.34,3.34,0,0,0,.2834,3.0333L20.0309,42.5H18.3642a.8333.8333,0,0,0-.8333.8334V45a.8333.8333,0,0,0,.8333.8333h.8334v3.3334Z"
+                          fill="#fff"></path>
+                        <path d="M12.4083,28.9225l2.4734-6.1934,1.5483.6184-2.4733,6.1933Z" fill="#fff"></path>
+                        <g>
+                          <path d="M14.4267,26.979a.8334.8334,0,0,0,0-1.6667h-.0083a.8334.8334,0,0,0,.0083,1.6667Z">
+                          </path>
+                          <path
+                            d="M12.3983,28.9323a4.1788,4.1788,0,0,0,.3567,3.7934l5.7492,8.9409h-.14a1.6667,1.6667,0,0,0-1.6667,1.6667V45a1.6667,1.6667,0,0,0,1.6667,1.6666v2.5A.8333.8333,0,0,0,19.1976,50H30.8643a.8333.8333,0,0,0,.8334-.8333v-2.5A1.6667,1.6667,0,0,0,33.3644,45V43.3333a1.6667,1.6667,0,0,0-1.6667-1.6667h-.14l5.75-8.9434a4.1774,4.1774,0,0,0,.355-3.7909l-7.075-17.7018A3.276,3.276,0,0,0,27.531,9.1663h-.0142a1.6667,1.6667,0,0,0-1.6525,1.6667V25.9006a1.5669,1.5669,0,0,0,.6583,1.2617,2.4761,2.4761,0,1,1-2.9917.0042,1.6026,1.6026,0,0,0,.6667-1.2834V10.833a1.6667,1.6667,0,0,0-1.6533-1.6667h-.0134a3.276,3.276,0,0,0-3.0567,2.0642L14.8734,22.7414a.8334.8334,0,1,0,1.5475.6192l4.6-11.5093a1.6175,1.6175,0,0,1,1.5034-1.0183h.0066v15a4.1658,4.1658,0,1,0,5,0l-.0067-15h.0067a1.6173,1.6173,0,0,1,1.51,1.0175l7.0734,17.7a2.5,2.5,0,0,1-.21,2.2733L29.576,41.6666h-9.09l-6.3275-9.84a2.5,2.5,0,0,1-.2117-2.2758.8337.8337,0,1,0-1.5484-.6184ZM30.031,48.3333h-10V46.6666h10Zm1.6667-5V45H18.3642V43.3333Z">
+                          </path>
+                          <path d="M27.531,40a.8334.8334,0,0,0,0-1.6667h-5a.8334.8334,0,0,0,0,1.6667Z"></path>
+                          <path
+                            d="M47.2762,21.7247a22.3335,22.3335,0,0,0-18.97-18.97,3.3242,3.3242,0,0,0-6.55,0,22.3333,22.3333,0,0,0-18.97,18.97,3.3493,3.3493,0,1,0,1.6666.1392A20.9644,20.9644,0,0,1,21.8951,4.42a3.3125,3.3125,0,0,0,6.2717,0A20.9645,20.9645,0,0,1,45.6145,21.8639a3.32,3.32,0,1,0,1.6667-.1392ZM5.0308,25a1.6668,1.6668,0,1,1-.4882-1.1785A1.6667,1.6667,0,0,1,5.0308,25Zm20-20A1.6666,1.6666,0,1,1,26.21,4.5114,1.6667,1.6667,0,0,1,25.031,5ZM46.6978,26.6665A1.6667,1.6667,0,1,1,48.3645,25,1.6667,1.6667,0,0,1,46.6978,26.6665Z">
+                          </path>
+                        </g>
+                      </g>
+                    </svg>
+                    <p class="text-medium text-black alt-font">
+                      Graphic Design UI-UX Development
+                    </p>
+                    <i class="fa fa-long-arrow-alt-right"></i>
+                  </div>
+                </a><a href="#" style="color: black; text-decoration: none">
+                  <div
+                    class="text-center p-xl-5 p-4 feature-box-13 position-relative lg-padding-ten-all md-padding-25px-all sm-padding-eight-all ourServicesBox">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="54.4933" height="42.4612"
+                      viewBox="0 0 54.4933 42.4612">
+                      <g>
+                        <path
+                          d="M39.1617,12.7a.8308.8308,0,0,0-1.1866,1.1631l.0118.0118a.8582.8582,0,0,0,1.1748,0,.8293.8293,0,0,0,.0021-1.1729Z">
+                        </path>
+                        <path
+                          d="M48.2079,38.1728h1.1588a5.1318,5.1318,0,0,0,5.1267-5.1261V17.583a5.1319,5.1319,0,0,0-5.1267-5.1262H42.52a.8309.8309,0,0,0,0,1.6618h6.8463a3.4686,3.4686,0,0,1,3.4649,3.4644V33.0467a3.4683,3.4683,0,0,1-3.4649,3.464H47.8634a.8376.8376,0,0,0-.5874.2438l-3.7079,3.7079L39.86,36.7545a.826.826,0,0,0-.5875-.2438H25.0971a3.4675,3.4675,0,0,1-3.464-3.464v-3.866a.8309.8309,0,0,0-1.6618,0v3.866a5.1316,5.1316,0,0,0,5.1257,5.1257H38.9282L42.98,42.2248a.85.85,0,0,0,1.1759,0Z">
+                        </path>
+                        <path
+                          d="M16.7617,25.7167H29.3952A5.132,5.132,0,0,0,34.5219,20.59V5.1266A5.1323,5.1323,0,0,0,29.3952,0H5.1266A5.1323,5.1323,0,0,0,0,5.1266V20.59a5.1318,5.1318,0,0,0,5.1257,5.1266H7.4821l4.0515,4.0515a.85.85,0,0,0,1.1759,0ZM8.4138,24.2979a.829.829,0,0,0-.5875-.243H5.1256A3.4682,3.4682,0,0,1,1.6618,20.59V5.1266A3.4678,3.4678,0,0,1,5.1256,1.6621h24.27A3.4686,3.4686,0,0,1,32.86,5.1266V20.59a3.4694,3.4694,0,0,1-3.465,3.4649H16.4172a.8348.8348,0,0,0-.5874.243l-3.7079,3.7078Z">
+                        </path>
+                        <path
+                          d="M35.5317,30.1478l.6008-1.4225h4.8836l.6008,1.4225a.8414.8414,0,0,0,1.09.4432.8317.8317,0,0,0,.44-1.0884l-3.8088-9.0214a.8306.8306,0,0,0-1.53,0l-3.808,9.0213a.8306.8306,0,0,0,1.5308.6453Zm3.0425-7.206,1.7406,4.1216H36.8337Z">
+                        </path>
+                        <path
+                          d="M16.7778,7.3027a4.702,4.702,0,0,0-4.6968,4.6968v1.718a4.6938,4.6938,0,0,0,7.66,3.64l.1458-.1191,1.23.9068a.8577.8577,0,0,0,1.1626-.177.8306.8306,0,0,0-.1775-1.1611h0l-1.1807-.87.0875-.1817a4.641,4.641,0,0,0,.4659-2.0371V11.9994A4.7019,4.7019,0,0,0,16.7778,7.3027Zm3.0351,6.4147a3.0336,3.0336,0,0,1-.1376.902l-.1006.326-1.4091-1.0378a.8307.8307,0,0,0-1.3145.7934.8222.8222,0,0,0,.3293.5442l1.3391.9865-.3464.18a3.0327,3.0327,0,0,1-4.43-2.6939V11.9989a3.0351,3.0351,0,0,1,6.07,0Z">
+                        </path>
+                      </g>
+                    </svg>
+                    <p class="text-medium text-black alt-font">QA Testing</p>
+                    <i class="fa fa-long-arrow-alt-right"></i>
+                  </div>
+                </a><a href="#" style="color: black; text-decoration: none">
+                  <div
+                    class="text-center p-xl-5 p-4 feature-box-13 position-relative lg-padding-ten-all md-padding-25px-all sm-padding-eight-all ourServicesBox">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.1589"
+                      height="50" viewBox="0 0 57.1589 50">
+                      <defs>
+                        <clipPath id="a" transform="translate(-4.754 -1.1586)">
+                          <rect width="66" height="50" fill="none"></rect>
+                        </clipPath>
+                      </defs>
+                      <g clip-path="url(#a)">
+                        <g>
+                          <path
+                            d="M47.1177,34.5354a2.3893,2.3893,0,0,0,1.1783.312q.1193,0,.24-.0119a2.3951,2.3951,0,0,0,1.7633-1.0588l3.2353-4.853,4.2315,1.6321a3.8551,3.8551,0,0,1,1.506,1.05L56.3768,34.5a5.5008,5.5008,0,0,0-1.6219,3.9155V50.3211a.8373.8373,0,0,0,1.6746,0V38.4159a3.8379,3.8379,0,0,1,1.1313-2.7314l2.5407-2.5406a3.8589,3.8589,0,0,1,.1336,1.17l-.6485,15.9731a.8374.8374,0,0,0,.8026.8706l.0346.0007a.8373.8373,0,0,0,.836-.8032l.6487-15.9736a5.5355,5.5355,0,0,0-3.54-5.388L53.809,27.235,51.4843,24.91a.8333.8333,0,0,0-.5381-.2427v-1.85a8.635,8.635,0,0,0,2.19-4.314,2.399,2.399,0,0,0,.5873-.0467A2.478,2.478,0,0,0,55.6463,16V15.389a2.5093,2.5093,0,0,0-.7374-1.7809c.7394-4.0212.13-7.2982-1.769-9.4916C51.3027,1.995,48.3427.981,44.58,1.1845A11.2144,11.2144,0,0,0,38.15,3.5568,4.27,4.27,0,0,0,34.388,8.2874a20.9094,20.9094,0,0,0,.5805,4.8638,2.4819,2.4819,0,0,0-1.3639,2.2472V16a2.478,2.478,0,0,0,1.9227,2.4576,2.3887,2.3887,0,0,0,.5872.0466,8.635,8.635,0,0,0,2.19,4.3141v1.85a.8329.8329,0,0,0-.5381.2427L35.442,27.2349l-4.5595,1.7587a5.54,5.54,0,0,0-1.12.5861.8373.8373,0,1,0,.941,1.3851,3.8756,3.8756,0,0,1,.7814-.409l4.2314-1.6321,3.2353,4.853a2.3951,2.3951,0,0,0,1.7634,1.0588c.08.008.16.0119.2395.0119a2.39,2.39,0,0,0,1.1784-.312l2.4794-2.78m.0128-1.8825-4.6461-4.0654V24.2054a8.6657,8.6657,0,0,0,9.2923,0v1.6024ZM36.058,16.83a.7173.7173,0,0,1-.1948-.0133A.8119.8119,0,0,1,35.2792,16v-.6013a.7938.7938,0,0,1,.5908-.7965.7278.7278,0,0,1,.7166.2744,1.1678,1.1678,0,0,0,1.6047.2519,6.0784,6.0784,0,0,0,1.3731-1.3423.8373.8373,0,1,0-1.3438-.9992,4.4421,4.4421,0,0,1-.652.7045,2.3969,2.3969,0,0,0-.9079-.4848,19.2527,19.2527,0,0,1-.5981-4.7191,2.9334,2.9334,0,0,1,1.1749-2.678A2.7149,2.7149,0,0,1,38.49,5.2079a.8453.8453,0,0,0,.5773-.2315,9.4323,9.4323,0,0,1,5.6036-2.12c3.2266-.1741,5.7175.64,7.2033,2.3561C53.3713,6.9418,53.87,9.5967,53.329,12.92a3.6191,3.6191,0,0,0-.7141.05L51.8283,11.08a.8381.8381,0,0,0-.9849-.4882c-.0778.02-7.81,1.98-11.0522-2.0559a.8372.8372,0,1,0-1.3055,1.0486c3.3108,4.1219,9.88,3.2252,12.0669,2.7879l.6083,1.4608a1.3763,1.3763,0,0,0,1.59.8155,1.8058,1.8058,0,0,1,.6265-.046.79.79,0,0,1,.5939.7858v.6106a.8117.8117,0,0,1-.584.817.71.71,0,0,1-.1948.0133,1.631,1.631,0,0,0-1.6955,1.3288,6.9871,6.9871,0,0,1-13.7437,0A1.63,1.63,0,0,0,36.058,16.83ZM40.88,33.1692a.7187.7187,0,0,1-.535-.3212l-3.2593-4.8889,1.3108-1.3107,5.0036,4.3782-1.9326,1.9326A.7189.7189,0,0,1,40.88,33.1692Zm8.0253-.3212a.7295.7295,0,0,1-1.1227.1111L45.85,31.0265l5.0037-4.3782,1.3108,1.3107Z"
+                            transform="translate(-4.754 -1.1586)"></path>
+                          <path d="M39.9254,37.9574H36.792a.8373.8373,0,0,0,0,1.6746h3.1334a.8373.8373,0,0,0,0-1.6746Z"
+                            transform="translate(-4.754 -1.1586)"></path>
+                          <path
+                            d="M20.5288,36.47l1.5954,1.3614a1.6207,1.6207,0,0,0,2.4319-.3827l2.5179-4.0871,3.5631,1.5554a3.8006,3.8006,0,0,1,.6353.3565l-2.3363,2.8036a6.3325,6.3325,0,0,0-1.465,4.0464v8.1782a.8505.8505,0,0,0,.8067.8569.8374.8374,0,0,0,.8679-.8368V42.123a4.6552,4.6552,0,0,1,1.0768-2.9744L32.42,36.5114A3.8564,3.8564,0,0,1,32.951,38.62l-.4945,11.6656a.8374.8374,0,0,0,.8012.872l.036.0008a.8374.8374,0,0,0,.836-.8019l.4944-11.6655a5.5727,5.5727,0,0,0-3.3173-5.31l-4.0885-1.7845-2.2349-2.2349a.8323.8323,0,0,0-.5381-.2427V27.8023a8.6477,8.6477,0,0,0,3.7569-5.63,2.4064,2.4064,0,0,0,.6608-.063,2.492,2.492,0,0,0,1.849-2.4413v-.61a2.4963,2.4963,0,0,0-1.073-2.059,9.4673,9.4673,0,0,0,.29-2.32A9.7621,9.7621,0,0,0,25.2271,6.4a5.4286,5.4286,0,0,0-5.5359-5.2418A5.4288,5.4288,0,0,0,14.1552,6.4a9.7625,9.7625,0,0,0-4.7013,8.2785,9.4668,9.4668,0,0,0,.2878,2.3129,2.502,2.502,0,0,0-1.0712,2.0748v.6013a2.492,2.492,0,0,0,1.849,2.4413,2.4018,2.4018,0,0,0,.6608.063,8.6479,8.6479,0,0,0,3.757,5.63V29.12a.8323.8323,0,0,0-.5381.2427l-2.2349,2.2349L8.0759,33.3816a5.5725,5.5725,0,0,0-3.317,5.31l.4945,11.6655a.8373.8373,0,0,0,.8359.8019l.0361-.0008a.8373.8373,0,0,0,.8011-.872L6.4319,38.62a3.8556,3.8556,0,0,1,.5309-2.1088L9.16,39.1485a4.6548,4.6548,0,0,1,1.0769,2.9744v8.1782a.85.85,0,0,0,.8067.8568.8372.8372,0,0,0,.8678-.8367V42.1229a6.3327,6.3327,0,0,0-1.465-4.0464L8.1105,35.2729a3.7936,3.7936,0,0,1,.6354-.3565l3.563-1.5554,2.5179,4.087a1.6207,1.6207,0,0,0,2.4319.3827l1.1435-.9758a4.3409,4.3409,0,0,0,.7838-.8786l.4933-.7329m.0121-32.41A3.8362,3.8362,0,0,1,23.42,5.5093a10.6179,10.6179,0,0,0-7.4572,0A3.8361,3.8361,0,0,1,19.6914,2.8332ZM12.82,21.8271a1.6308,1.6308,0,0,0-1.6955-1.3288.7222.7222,0,0,1-.2187-.0187.8176.8176,0,0,1-.56-.8117v-.6013a.7936.7936,0,0,1,.5908-.7964.7278.7278,0,0,1,.7164.2743,1.1676,1.1676,0,0,0,1.6048.2521,6.0735,6.0735,0,0,0,1.3552-1.3185.8373.8373,0,0,0-1.3391-1.0054,4.4386,4.4386,0,0,1-.6388.6869,2.4,2.4,0,0,0-1.2636-.5563,7.7989,7.7989,0,0,1-.2424-1.9243,8.3834,8.3834,0,0,1,8.5629-8.1712,8.3833,8.3833,0,0,1,8.5628,8.1712A7.7976,7.7976,0,0,1,28.0128,16.6a3.8389,3.8389,0,0,0-.6517.1074l-.6294-.5175a1.6072,1.6072,0,0,0-1.1173-.3663c-1.2307.0726-7.5336.2391-10.7673-3.631a.8373.8373,0,1,0-1.285,1.0738,11.9661,11.9661,0,0,0,6.9524,3.8361,20.4942,20.4942,0,0,0,5.17.3943l.9819.8075a.8357.8357,0,0,0,.952.0775,1.8473,1.8473,0,0,1,.8251-.11.79.79,0,0,1,.5938.786v.61a.8174.8174,0,0,1-.56.8117.7155.7155,0,0,1-.2187.0186,1.6321,1.6321,0,0,0-1.6955,1.3288,6.9872,6.9872,0,0,1-13.7439,0Zm6.8719,7.3977a8.6435,8.6435,0,0,0,3.0795-.5663v1.7321l-3.0795,3.08-3.0794-3.08V28.6584A8.64,8.64,0,0,0,19.6914,29.2248ZM16.22,36.5161l-2.5183-4.0877,1.29-1.29,3.4673,3.4672Zm6.9438,0-2.2391-1.9106,3.4673-3.4672,1.29,1.29Z"
+                            transform="translate(-4.754 -1.1586)"></path>
+                          <path d="M16.558,41.65h-2.35a.8373.8373,0,1,0,0,1.6746h2.35a.8373.8373,0,0,0,0-1.6746Z"
+                            transform="translate(-4.754 -1.1586)"></path>
+                        </g>
+                      </g>
+                    </svg>
+                    <p class="text-medium text-black alt-font">
+                      Hire Our Resources
+                    </p>
+                    <i class="fa fa-long-arrow-alt-right"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------------------------------Fundamentals-----------------------------------------  -->
+
+  <!----------------------------------------------React Fundamentals--------------------------------------------------  -->
+
+  <section  id="technologies" class="section pt-5">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <div class="col">
+          <h2 class="font-weight-bold dark-blue-title word-rotator letters type">
+            <span>We are developers.</span>
+            <!-- <span class="word-rotator-words waiting">
+                <b class="is-visible" style="opacity: 1"
+                  ><i class="in">D</i><i class="in">e</i><i class="in">s</i
+                  ><i class="in">i</i><i class="in">g</i><i class="in">n</i></b
+                >
+                <b style="opacity: 1" class="is-hidden"
+                  ><i class="out">D</i><i class="out">e</i><i class="out">v</i
+                  ><i class="out">e</i><i class="out">l</i><i class="out">o</i
+                  ><i class="out">p</i></b
+                >
+                <b style="opacity: 1" class="is-hidden"
+                  ><i class="out">D</i><i class="out">e</i><i class="out">l</i
+                  ><i class="out">i</i><i class="out">v</i><i class="out">e</i
+                  ><i class="out">r</i></b
+                >
+              </span> -->
+          </h2>
+          <div class="overflow-hidden my-4" style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              ">
+            <hr style="width: 100px; height: 5px; color: black" />
+          </div>
+          <p class="lead">
+            In any project, there are three critical periods. First,
+            information design and placement, second, clear and bug-free
+            programmes, and third, on-time project delivery. We make certain
+            that you receive the finest of everything and will
+            never let you down.
+          </p>
+        </div>
+      </div>
+      <div class="row text-center design-develop-img">
+        <div class="col">
+          <img src="./img/imgs/midImg2.png" class="img-responsive imageForMid" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------------------Our instructors-------------------------------------------------- -->
+  <section class="p-5 bg-dark mt-5">
+    <div class="container">
+      <h2 class="text-center text-white m-lg-5">Our Development Process</h2>
+      <hr style="color: #fff; height: 2px;" />
+      <p class="text-center text-white m-lg-5">
+        We manage your project and keep it on schedule while staying under budget to give a stress-free
+        development experience.
+        Because You Do Not Require Only a Software Development Company! You require a smart, flexible, and passionate
+        team that treats your projects as if they were their own.
+      </p>
+      <div class="row gap-sm-2 gap-md-2 gap-lg-0">
+        <!-- Card one -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light"
+            style="padding: 50px 50px 50px 50px; display: flex; justify-content: center; text-align: center; gap: 20px;">
+            <div><img src="./img/imgs/cup-hot.svg" class="svgImg" /></div>
+
+            <p style="
+                  text-align: center;
+                  font-size: 18px;
+                  font-weight: 500;
+                ">
+              Virtual meet to understand the scope
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light"
+            style="padding: 50px 50px 50px 50px; display: flex; justify-content: center; text-align: center; gap: 20px;">
+            <div><img src="./img/imgs/boombox.svg" class="svgImg" /></div>
+
+            <p style="
+                  text-align: center;
+                  font-size: 18px;
+                  font-weight: 500;
+                ">
+              Understanding the functional requirements and estimation
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light"
+            style="padding: 50px 50px 50px 50px; display: flex; justify-content: center; text-align: center; gap: 20px;">
+            <div><img src="./img/imgs/code-slash.svg" class="svgImg" /></div>
+
+            <p style="
+                  text-align: center;
+                  font-size: 18px;
+                  font-weight: 500;
+                ">
+              Design as per the requirements, Coding & Development
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light"
+            style="padding: 50px 50px 50px 50px; display: flex; justify-content: center; text-align: center; gap: 20px;">
+            <div><img src="./img/imgs/clipboard-pulse.svg" class="svgImg" /></div>
+
+            <p style="
+                  text-align: center;
+                  font-size: 18px;
+                  font-weight: 500;
+                ">
+              QA testing & Long-term Support
+            </p>
+          </div>
+        </div>
+        <!-- <div class="col-md-6 col-lg-2">
+            <div class="card bg-light">
+              <p
+                style="
+                  margin: 80px 20px 80px 20px;
+                  text-align: center;
+                  font-size: 18px;
+                  font-weight: 500;
+                "
+              >
+                Virtual meet to understand the scope
+              </p>
+            </div>
+          </div> -->
+
+        <!-- Card Two -->
+      </div>
+  </section>
+
+  <section id="about" class="section " style="background-color: black; color: #fff!important; ">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <div class="col">
+          <h2 class="font-weight-bold text-white m-5">Why WebBrings?</h2>
+          <div class="overflow-hidden my-4">
+            <hr
+              class="divider-w-2 divider-size-2 hr-white-border my-0 appear-animation animated maskUp appear-animation-visible"
+              data-appear-animation="maskUp" data-appear-animation-delay="200" style="animation-delay: 200ms" />
+          </div>
+          <p class="lead">
+            During the software design process, we use five stages: research, ideation, design, development, and
+            iteration. These five aspects correspond to the most fundamental inquiries of "who, what, when, where, and
+            how," which are required to completely answer any collection of questions.
+          </p>
+        </div>
+      </div>
+      <div class="">
+        <div class="col highlight-boxes highlight-boxes-rounded row">
+          <div class="wrap-boxes ">
+            <div class="col-md-4 text-center bg-light-1 text-center boxWrap" data-appear-animation="fadeInRightShorter"
+              data-appear-animation-delay="200 " style="background-color: #fff; color: black;">
+              <i class="lnr lnr-tablet background-icon background-icon-right"></i>
+              <h3 class="font-weight-bold text-3 mb-4 pb-2">
+                Transparency
+              </h3>
+              <p class="text-black">
+                We maintain transparency in the process and enable
+                effective communication to secure a long term
+                relationship.
+              </p>
+            </div>
+            <div class="col-md-4 text-center boxWrap bg-dark" data-appear-animation="fadeInUpShorter">
+              <i class="lnr lnr-select background-icon background-icon-bottom text-color-dark"></i>
+              <h3 class="text-color-light font-weight-bold text-3 mb-4 pb-2">
+                Commitment
+              </h3>
+              <p class="text-color-light">
+                We are truly committed to our words and never change the
+                behaviors like others after making an initial payment for
+                the project.
+              </p>
+            </div>
+            <div class="col-md-4 text-center boxWrap" data-appear-animation="fadeInLeftShorter"
+              data-appear-animation-delay="200" style="background-color: #fff;color: black;">
+              <i class="lnr lnr-briefcase background-icon background-icon-left"></i>
+              <h3 class="font-weight-bold text-3 mb-4 pb-2">
+                Sense of Relief
+              </h3>
+              <p class="text-black">
+                We manage your project and keep the project on track and
+                an under-allocated budget to provide stress-free
+                development experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ----------------------------------------Contact Section-------------------------------------------------------- -->
+
+  <section id="contact" class="section bg-light  py-5" id="hire-resource">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 appear-animation form-index animated fadeInRightShorter appear-animation-visible"
+          data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600" style="animation-delay: 600ms;">
+          <div class="card-form pt-5 pb-4">
+            <div class="p-4" style="padding-bottom: 0 !important;padding-top: 0 !important;">
+              <div class="row">
+                <div class="col">
+                  <span class="top-sub-title text-black">Let's Connect</span>
+                  <h2 class="text-black text-5 font-weight-semibold mb-4">Get 30 Minutes Free Consultation Now!</h2>
+                </div>
+              </div>
+              <div class="row" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding-top: 50px; padding-bottom: 50px; padding-left: 20px; padding-right: 20px; border-radius: 10px;">
+                <div class="col">
+                  <form class="contact-form" id="contact_form"  >
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <input type="text" value="" class="form-control" name="fullname" id="fullname"
+                          placeholder="Full Name *" spellcheck="false" data-ms-editor="true" fdprocessedid="grvjr">
+                        <!-- <span class="error" id="fullname_error">Please Enter Full Name !
+                        </span>
+                        <span class="error" id="fullname_error1">Please Enter Valid Full Name !</span> -->
+                      </div>
+
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <select class="form-control" id="hire_select_service" name="hire_select_service"
+                          placeholder="Select Service" fdprocessedid="gt1r52">
+                          <option value="">Select Service</option>
+                          <option value="Mobile App Development">Mobile App Development</option>
+                          <option value="Website Development">Website Development</option>
+                          <option value="Custom App Development">Custom App Development</option>
+                          <option value="Hire Developers">Hire Developers</option>
+                          <option value="Other Services">Other Services</option>
+
+                        </select>
+
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <input type="email" value="" class="form-control" name="cemail" id="cemail"
+                          placeholder="E-mail *" fdprocessedid="sl36y">
+                        <!-- <span class="error" id="cemail_error">Please Enter Email !
+                        </span>
+                        <span class="error" id="cemail_error1">Please Enter Valid Email !</span> -->
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input type="hidden" name="countryCode">
+
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col">
+                        <textarea maxlength="5000" rows="5" class="form-control" name="cdescription" id="cdescription"
+                          placeholder="Brief Description of Project" spellcheck="false"
+                          data-ms-editor="true"></textarea>
+
+                      </div>
+                    </div>
+                    <div class="form-row mt-2">
+                      <div class="form-group col text-center">
+                        <input type="button" value="SEND MESSAGE"
+                          class="btn btn-primary btn-rounded btn-4 font-weight-semibold mx-auto btn-v-4 btn-h-5"
+                          name="submit_button" id="submit_button" data-loading-text="Loading..." fdprocessedid="jf4tyf">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="office-map-link">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 col-md-12 appear-animation pl-xl-5 contact-change animated fadeInUpShorter appear-animation-visible"
+          data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+          <h3 class="font-weight-semibold text-black text-4 mb-3 mt-4">Things we do next:</h3>
+          <div class="things-list pl-3 pr-3 mb-5">
+            <ul
+              class="list list-unstyled list-icons-size-2 mb-0 appear-animation animated fadeInUpShorter appear-animation-visible"
+              data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" style="animation-delay: 400ms;">
+              <li class="d-flex align-items-center text-3 text-black pb-1 mb-2"><i
+                  class="bi bi-check-square text-black text-2 mx-2"></i> Our representative will contact you in 24 hours
               </li>
-              <li class="nav-item">
-                <a href="#questions" class="nav-link">Questions</a>
+              <li class="d-flex align-items-center text-3 text-black pb-1 mb-2"><i
+                  class="bi bi-check-square text-black text-2 mx-2"></i> NDA to ensure confidentiality</li>
+              <li class="d-flex align-items-center text-3 text-black pb-1 mb-2"><i
+                  class="bi bi-check-square text-black text-2 mx-2"></i> We will collect project requirements</li>
+              <li class="d-flex align-items-center text-3 text-black pb-1 mb-2"><i
+                  class="bi bi-check-square text-black text-2 mx-2"></i> We analyze your requirements and prepare an
+                estimation</li>
+              <li class="d-flex align-items-center text-3 text-black pb-1 mb-2"><i
+                  class="bi bi-check-square text-black text-2 mx-2"></i> Assign the project &amp; team introduction</li>
+            </ul>
+          </div>
+
+          <h3 class="font-weight-semibold text-black text-4 mb-2 mt-1">Sales Info</h3>
+          <div class="company-info row">
+            <div
+              class=" centerText col-12 col-md-4 col-lg-4 mb-lg-4 appear-animation animated fadeInLeftShorter appear-animation-visible text-centerText"
+              data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200"
+              style="animation-delay: 200ms;">
+              <div class="icon-box icon-box-style-1">
+                <div class="icon-box-info mt-1">
+                  <div class="icon-box-info-title">
+                    <div class="row">
+                      <div class="col-2 icon-box-icon col-lg-2 mr-2 py-0 pl-0 pr-0">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcUSWiTyqbh4a2SNgJ6BaW-XioKtMBjqL-wkuSLoc&s" alt="skype icon" style="height: 22px;">
+                      </div>
+                      <div class="col-8 col-lg-8 py-0 pl-0 pr-0">
+                        <h3 class=" font-weight-semibold text-black text-3 mb-0" style="font-size: 18px;">Skype Id</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p><a href="" rel="nofollow" title="Skype"> marketing_24881</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class=" centerText col-12 col-md-4 col-lg-4 mb-lg-4 appear-animation animated fadeInLeftShorter appear-animation-visible"
+              data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400"
+              style="animation-delay: 400ms;">
+              <div class="icon-box icon-box-style-1">
+                <div class="icon-box-info mt-1">
+                  <div class="icon-box-info-title">
+                    <div class="row">
+                      <div class="col-2 icon-box-icon col-lg-2 py-0 pl-0 pr-0">
+                        <i class="mx-1 bi bi-phone text-black"></i>
+                      </div>
+                      <div class="col-10 col-lg-10 py-0 pl-0 pr-0">
+                        <h3 class=" font-weight-semibold text-black text-3 mb-0" style="font-size: 18px;">Phone Number
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p><a href="tel:+91939668888" rel="nofollow" title="Phone Number">+91 2222 55555</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class=" centerText col-12 col-md-4 col-lg-4 mb-lg-4 appear-animation animated fadeInLeftShorter appear-animation-visible"
+              data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200"
+              style="animation-delay: 200ms;">
+              <div class="icon-box icon-box-style-1">
+                <div class="icon-box-info mt-1">
+                  <div class="icon-box-info-title">
+                    <div class="row">
+                      <div class="col-2 icon-box-icon col-lg-2 py-0 pl-0 pr-0">
+                        <i class="mx-1 bi bi-voicemail text-black"></i>
+                      </div>
+                      <div class="col-10 col-lg-10 py-0 pl-0 pr-0">
+                        <h3 class=" font-weight-semibold text-black text-3 mb-0" style="font-size: 18px;">Email Id</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p><a href="mailto:" rel="nofollow" title="Email Id">sales@email.gamil.com</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="font-weight-semibold text-black text-4 mb-2 mt-1">Contact Info</h3>
+          <div class="company-info row">
+            <div
+              class=" centerText col-12 col-md-4 col-lg-4 mb-lg-2 appear-animation animated fadeInLeftShorter appear-animation-visible"
+              data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400"
+              style="animation-delay: 400ms;">
+              <div class="icon-box icon-box-style-1">
+                <div class="icon-box-info mt-1">
+                  <div class="icon-box-info-title">
+                    <div class="row">
+                      <div class="col-2 icon-box-icon col-lg-2 py-0 pl-0 pr-0">
+                        <i class="mx-1 bi bi-phone text-black"></i>
+                      </div>
+                      <div class="col-10 col-lg-10 py-0 pl-0 pr-0">
+                        <h3 class=" font-weight-semibold text-black text-3 mb-0" style="font-size: 18px;">Phone Number
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p><a href="tel:+91 93772 29944" rel="nofollow" title="Phone Number">+91 93772 29944</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class=" centerText col-12 col-md-4 col-lg-4 mb-lg-2 appear-animation animated fadeInLeftShorter appear-animation-visible"
+              data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200"
+              style="animation-delay: 200ms;">
+              <div class="icon-box icon-box-style-1">
+                <div class="icon-box-info mt-1">
+                  <div class="icon-box-info-title">
+                    <div class="row">
+                      <div class="col-2 icon-box-icon col-lg-2 py-0 pl-0 pr-0">
+                        <i class="mx-1 bi bi-voicemail text-black"></i>
+                      </div>
+                      <div class="col-10 col-lg-10 py-0 pl-0 pr-0">
+                        <h3 class=" font-weight-semibold text-black text-3 mb-0" style="font-size: 18px;">Email Id</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p><a href="mailto:hr@kodytechnolab.com" rel="nofollow" title="Email Id">hr@kodytechnolab.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row badge-section">
+            <div class="col p-0">
+              <a href="" target="_blank"> <img style="height: 100px; width: 100px;"
+                  src="https://topappdevelopmentcompanies.com/badges/top-java-development-compnies.png"
+                  alt="top java developers" title="Top Java Developers"></a>
+            </div>
+            <div class="col p-0">
+              <a href="" target="_blank"> <img style="height: 100px; width: 100px;"
+                  src="https://appdevelopmentcompanies.co/badge/flutter-app-development-companies.png"
+                  alt="flutter app development companies" title="Flutter App Development Companies"></a>
+            </div>
+            <div class="col p-0">
+              <a href="" target="_blank"> <img style="height: 100px; width: 100px;"
+                  src="https://topsoftwarecompanies.co/badges/top-app-developers.svg" alt="app developers india"
+                  title="App Developers India"></a>
+            </div>
+            <div class="col p-0">
+              <a href="" target="_blank"> <img style="height: 100px; width: 100px;"
+                  src="https://topwebdevelopmentcompanies.com/badges/top-web-development-companies.png"
+                  alt="web development companies india" title="Web Development Companies India"></a>
+            </div>
+            <div class="col p-0">
+              <a href="" target="_blank"> <img style="height: 100px; width: 100px;"
+                  src="https://s3.amazonaws.com/mobileappdaily/mad/uploads/mad_reports_5e2550422bf5f1579503682.png"
+                  alt="mobile app development companies india" title="Mobile App Development Companies"></a>
+            </div>
+          </div>
+          <div class="pr-3">
+            <h3 class="font-weight-semibold text-black text-4 mb-3 mt-4">Follow Us</h3>
+            <ul class="social-icons social-icons-transparent social-icons-icon-light social-icons-lg pl-3 w-75 " style="display: flex; align-items: center; justify-content: space-between; list-style: none;">
+              <li class="social-icons-facebook" style="text-decoration: none;"><a href="https://www.facebook.com//" rel="nofollow" target="_blank"
+                  title="Facebook"><i class="bi bi-facebook text-black"></i></a>
               </li>
-              <li class="nav-item">
-                <a href="#instructors" class="nav-link">Instructors</a>
+              <li class="social-icons-twitter"><a href="https://twitter.com/" rel="nofollow" target="_blank"
+                  title="Twitter"><i class="bi bi-twitter"></i></a>
+              </li>
+              <li class="social-icons-instagram"><a href="https://www.instagram.com//" rel="nofollow" target="_blank"
+                  title="Instagram"><i class="bi bi-instagram text-black"></i></a>
+              </li>
+
+              <li class="social-icons-linkedin"><a href="https://www.linkedin.com/company/" rel="nofollow"
+                  target="_blank" title="Linkedin"><i class="bi bi-linkedin text-black "></i></a>
+              </li>
+              <li class="social-icons-youtube"><a href="https://www.youtube.com/" rel="nofollow" target="_blank"
+                  title="Youtube"><i class="bi bi-youtube text-black"></i></a>
+              </li>
+              <li class="social-icons-twitter"><a href="https://www.behance.net/" rel="nofollow" target="_blank"
+                  title="Behance"><i class="bi bi-github text-black"></i></a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-  
-    <!-- --------------------------------ShowCase-------------------------------------- -->
-
-        <!-- Showcase -->
-        <section
-        class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
-      >
-        <div class="container">
-          <div class="d-sm-flex align-items-center justify-content-between">
-            <div>
-              <h1>Become a <span class="text-warning"> Web Developer </span></h1>
-              <p class="lead my-4">
-                We focus on teaching our students the fundamentals of the latest
-                and greatest technologies to prepare them for their first dev role
-              </p>
-              <button
-                class="btn btn-primary btn-lg"
-                data-bs-toggle="modal"
-                data-bs-target="#enroll"
-              >
-                Start The Enrollment
-              </button>
-            </div>
-            <img
-              class="img-fluid w-50 d-none d-sm-block"
-              src="img/showcase.svg"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
-  
-    <!-- --------------------------------News Sletter-------------------------------------- -->
-    <section class="bg-primary text-light p-5">
-        <div class="container">
-
-            <div class="d-md-flex justify-content-between align-items-center">
-                <h3 class="mb-lg-3 mb-md-0">Subscribe Our Newsletter</h3>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Enter your email">
-                    <button class="btn btn-dark btn-lg">Subscrribe</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- --------------------------------Boxes-------------------------------------- -->
-    <section class="p-5">
-        <div class="container">
-            <div class="row justify-content-center align-items-center gap-3">
-
-                <!-- Box1 -->
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <div class="h1">
-                                <i class="bi bi-laptop"></i>
-                            </div>
-                            <h3 class="card-title mb-3">Virtual</h3>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-                                aut laborum ipsum repellat quibusdam rerum. Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Earum, quidem. quibusdam rerum</p>
-                            <button class="btn btn-primary">Read More</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Box2 -->
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <div class="h1">
-                                <i class="bi bi-person"></i>
-                            </div>
-                            <h3 class="card-title mb-3">In Personal</h3>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-                                aut laborum ipsum repellat quibusdam rerum.
-                                quibusdam rerum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
-                                quidem.</p>
-                            <button class="btn btn-primary">Read More</button>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- Box3 -->
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <div class="h1">
-                                <i class="bi bi-person-square"></i>
-                            </div>
-                            <h3 class="card-title mb-3">Hybrid</h3>
-                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-                                aut laborum ipsum repellat quibusdam rerum.
-                                quibusdam rerum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum,
-                                quidem.</p>
-                            <button class="btn btn-primary">Read More</button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-------------------------------------Fundamentals-----------------------------------------  -->
-    <section class="p-5">
-        <div class="container">
-            <div class="row justify-content-between align-items-center gap-5">
-                <div class="col-md">
-                    <img src="./img/fundamentals.svg" alt="" class="img-fluid">
-                </div>
-                <div class="text-center col-md">
-                    <h1>Learn The Fundamentals</h1>
-                    <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam ducimus consequuntur ex
-                        necessitatibus repudiandae esse sed sunt, quos molestias exercitationem temporibus quaerat, at
-                        omnis architecto! Repellendus, architecto dolorum! Doloremque nobis a porro, expedita
-                        voluptatibus nulla neque itaque praesentium eligendi reiciendis.
-                    </p>
-                    <button class="btn btn-light"> Read More
-                        <i class="bi bi-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!----------------------------------------------React Fundamentals--------------------------------------------------  -->
-
-    <section class="p-5 bg-dark text-light">
-        <div class="container">
-            <div class="row justify-content-between align-items-center gap-5">
-                <div class="text-center col-md">
-                    <h1>Learn The Fundamentals</h1>
-                    <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam ducimus consequuntur ex
-                        necessitatibus repudiandae esse sed sunt, quos molestias exercitationem temporibus quaerat, at
-                        omnis architecto! Repellendus, architecto dolorum! Doloremque nobis a porro, expedita
-                        voluptatibus nulla neque itaque praesentium eligendi reiciendis.
-                    </p>
-                    <button class="btn btn-light"> Read More
-                        <i class="bi bi-chevron-right"></i>
-                    </button>
-                </div>
-                <div class="col-md">
-                    <img src="./img/react.svg" alt="" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-------------------------------------Freuently Asked  Questions--------------------------------------------  -->
-    <section class="p-5">
-        <div class="container text-center">
-            <h1>Freuently Asked</h1>
-            <div class="accordion accordion-flush" id="Questions">
-
-                <!-- Qus One -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#Qus-One">
-                            Where exatly are you located?
-                        </button>
-                    </h2>
-                    <div id="Qus-One" class="accordion-collapse collapse" data-bs-parent="#Questions">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                            consequuntur recusandae quaerat excepturi quod amet nostrum officiis impedit inventore
-                            temporibus? Distinctio possimus voluptates cum! Corporis alias accusamus, maxime
-                            consequuntur voluptas odit incidunt non, perferendis quod, vel hic! Quisquam modi ut nobis,
-                            consequatur, enim ex iure, quae ullam magni eaque assumenda.</div>
-                    </div>
-                </div>
-
-                <!-- Qus Three -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#Qus-Three">
-                            What is you placement rate?
-                        </button>
-                    </h2>
-                    <div id="Qus-Three" class="accordion-collapse collapse" data-bs-parent="#Questions">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                            consequuntur recusandae quaerat excepturi quod amet nostrum officiis impedit inventore
-                            temporibus? Distinctio possimus voluptates cum! Corporis alias accusamus, maxime
-                            consequuntur voluptas odit incidunt non, perferendis quod, vel hic! Quisquam modi ut nobis,
-                            consequatur, enim ex iure, quae ullam magni eaque assumenda.</div>
-                    </div>
-                </div>
-                <!-- Qus Two -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#Qus-Two">
-                            How can i start learning?
-                        </button>
-                    </h2>
-                    <div id="Qus-Two" class="accordion-collapse collapse" data-bs-parent="#Questions">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                            consequuntur recusandae quaerat excepturi quod amet nostrum officiis impedit inventore
-                            temporibus? Distinctio possimus voluptates cum! Corporis alias accusamus, maxime
-                            consequuntur voluptas odit incidunt non, perferendis quod, vel hic! Quisquam modi ut nobis,
-                            consequatur, enim ex iure, quae ullam magni eaque assumenda.</div>
-                    </div>
-                </div>
-
-                <!-- Qus Two -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#Qus-Two">
-                            What is the process of addmisson?
-                        </button>
-                    </h2>
-                    <div id="Qus-Two" class="accordion-collapse collapse" data-bs-parent="#Questions">
-                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                            consequuntur recusandae quaerat excepturi quod amet nostrum officiis impedit inventore
-                            temporibus? Distinctio possimus voluptates cum! Corporis alias accusamus, maxime
-                            consequuntur voluptas odit incidunt non, perferendis quod, vel hic! Quisquam modi ut nobis,
-                            consequatur, enim ex iure, quae ullam magni eaque assumenda.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- --------------------------------Our instructors-------------------------------------------------- -->
-    <section class="p-5 bg-primary">
-        <div class="container">
-            <h2 class="text-center text-white">Our Instructors</h2>
-            <p class="text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, ipsa.
-            </p>
-            <div class="row gap-sm-2 gap-md-2 gap-lg-0">
-
-                <!-- Card one -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/1.jpg" class="rounded-circle mb-3" alt="" />
-                        <div class="card-tittle">
-                            <h4>Mohan Gupta</h4>
-                        </div>
-                        <div class="card-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, inventore.</p>
-                        </div>
-                        <a href="#"><i class="bi bi-facebook text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-instagram text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-whatsapp text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-linkedin text-dark mx-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card Two -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/2.jpg" class="rounded-circle mb-3" alt="" />
-                        <div class="card-tittle">
-                            <h4>Radhika Chaudhary</h4>
-                        </div>
-                        <div class="card-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, inventore.</p>
-                        </div>
-                        <a href="#"><i class="bi bi-facebook text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-instagram text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-whatsapp text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-linkedin text-dark mx-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card Three -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="" />
-                        <div class="card-tittle">
-                            <h4>Kabir Gupta</h4>
-                        </div>
-                        <div class="card-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, inventore.</p>
-                        </div>
-                        <a href="#"><i class="bi bi-facebook text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-instagram text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-whatsapp text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-linkedin text-dark mx-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card Four -->
-                <div class="col-md-6 col-lg-3">
-                    <div class="card bg-light">
-                        <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/18.jpg" class="rounded-circle mb-3" alt="" />
-                        <div class="card-tittle">
-                            <h4>Raja Ragav</h4>
-                        </div>
-                        <div class="card-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, inventore.</p>
-                        </div>
-                        <a href="#"><i class="bi bi-facebook text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-instagram text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-whatsapp text-dark mx-2"></i></a>
-                        <a href=""><i class="bi bi-linkedin text-dark mx-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!-- ----------------------------------------Contact Section-------------------------------------------------------- -->
-<section class="p-5">
-    <div class="conatiner ">
-        <div class="row g-2 justify-content-between align-items-center">
-            <h2 class="text-center mb-4">Contact information</h2>
-            <div class="col-md">
-
-                <ul class="list-group list-group-flush lead">
-                    <li class="list-group-item">
-                        <span class="fw-bold">Company Name</span>
-                          FreeLearner pvt ltd.
-                    </li>
-                </ul>
-
-                <ul class="list-group list-group-flush lead">
-                    <li class="list-group-item">
-                        <span class="fw-bold">Email:</span>
-                          FreeLearner@gmail.com
-                    </li>
-                </ul>
-
-                <ul class="list-group list-group-flush lead">
-                    <li class="list-group-item">
-                        <span class="fw-bold">Phone No</span>
-                          -91 939390883
-                    </li>
-                </ul>
-
-                <ul class="list-group list-group-flush lead">
-                    <li class="list-group-item">
-                        <span class="fw-bold">Main location</span>
-                        Preet Vihar (23009), Dehli India
-                    </li>
-                </ul>
-
-            </div>
-            <div class="col-md">
-                <div class="map">
-                    <img src="./img/map.gif" alt="" srcset="" class="img-fluid">
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-</section>
+  </section>
+  <!-- ----------------------------------Footer -------------------------------------------------->
 
-<!-- ----------------------------------Footer -------------------------------------------------->
-
-<section class="p-5 bg-dark text-white"> 
+  <section class="pt-2 bg-dark text-white">
     <div class="container d-flex flex-column justify-content-center align-items-center">
-        <div class="pb-2">
+      <!-- <div class="pb-2">
         <i class="bi bi-facebook text-white mx-2"></i>
         <i class="bi bi-linkedin text-white mx-2"></i>
         <i class="bi bi-whatsapp text-white mx-2"></i>
         <i class="bi bi-github text-white mx-2"></i>
-        </div>
-        <h4 class="lead">CopyRight 2022 ,All Rights Reserved @</h4>
+      </div> -->
+      <p class="" style="font-size: 10px;" >© Copyright 2023 WebBrings Technologies Pvt Ltd,  India. All Rights Reserved.</p>
     </div>
-</section>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
-
 
 </html>

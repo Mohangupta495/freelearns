@@ -1,5 +1,128 @@
-body::before{
-    content: '';
-    display: block;
-    height: 50px;
+body::before {
+  content: "";
+  display: block;
+  height: 50px;
+}
+body {
+  /* width: 100vw; */
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  /* list-style: none; */
+}
+.logoText {
+  font-size: 6rem;
+  font-weight: 600;
+}
+.ourServicesBox {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.ourServicesBox:hover {
+  background: rgba(51, 50, 50, 0.5);
+  /* background-color: #dc35    467c; */
+  backdrop-filter: blur(5px);
+  color: #fff;
+}
+.imageForMid {
+  height: 500px;
+}
+.homeSection {
+  height: 100vh;
+  background-image: url(./img/imgs/back.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-top: -50px;
+  /* filter: blur(8px); */
+  /* -webkit-filter: blur(8px); */
+  background-position: center;
+  backdrop-filter: blur(30px);
+  overflow-y: hidden;
+}
+.svgImg {
+  height: 50px;
+  width: 50px;
+}
+.wrap-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-column: auto; */
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.boxWrap {
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.homeTextContainer {
+  display: flex;
+  gap: 200px;
+  flex-direction: column;
+  height: 450px;
+  width: 100%;
+}
+#contact_form {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 35px;
+  flex-direction: column;
+}
+#contact_form input {
+  height: 45px;
+}
+@media (max-width: 1200px) {
+  .logoText {
+    font-size: 5rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 600px) {
+  .logoText {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  /* .bttttn {
+    height: 10px;
+    width: auto;
+  } */
+  .centerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .homeTextContainer {
+    gap: 30px;
+  }
+  .homeSection {
+    height: 73vh;
+  }
+  .imageForMid {
+    width: 100%;
+    height: auto;
+  }
+  .wrap-boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-column: auto; */
+    gap: 20px;
+  }
 }
